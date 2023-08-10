@@ -1,8 +1,6 @@
 package org.zerock.config;
 
 import javax.servlet.ServletRegistration;
-import javax.servlet.ServletRegistration.Dynamic;
-
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 public class WebConfig extends AbstractAnnotationConfigDispatcherServletInitializer{

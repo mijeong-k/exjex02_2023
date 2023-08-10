@@ -9,6 +9,9 @@
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         		
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="ojdbc11.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/app/MJ/product/21c/dbhomeXE/jdbc/lib/ojdbc11.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         		
         <property name="java-output-path" value="target/classes"/>
                 
